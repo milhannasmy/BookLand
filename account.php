@@ -144,7 +144,7 @@
 		
 			</div>
 			<hr>
-			<p class="copyright">Copyright 2021 - Book Land</p>
+			<p class="copyright">Copyright 2021 - Book Landd</p>
 		</div>
 	</div>
 	
