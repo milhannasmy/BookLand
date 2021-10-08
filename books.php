@@ -67,7 +67,7 @@ if(!isset($_SESSION["userName"]))
 				 die("Sorry ,Technical error ");
 			 }
 			 
-			 $sql="SELECT * FROM `book`" ;
+			 $sql="SELECT * FROM `book` where id=5" ;
 	
 	         $result = mysqli_query($con,$sql);
 	
