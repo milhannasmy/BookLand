@@ -104,7 +104,7 @@
 			mysqli_connect("localhost","root","","bookland");
 		if(!$con)
 		{
-			die("Sorry, Technical Issue");
+			die("Sorry, Server is returning timeout");
 		}
 		
 		$sql = "INSERT INTO `book` (`bookId`, `bookName`, `stock`, `author`, `genre`, `imagePath`, `price`, `description`) VALUES
